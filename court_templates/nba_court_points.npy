@@ -1,0 +1,7 @@
+np.save("court_templates/nba_court_points.npy", np.array([
+    [0, 0],          # e.g., top-left 3pt line
+    [470, 0],        # top-right 3pt
+    [470, 500],      # bottom-right 3pt
+    [0, 500],        # bottom-left
+    [235, 250]       # center circle
+]))
